@@ -19,11 +19,11 @@ const addToCalendar = (meetingDetails) => {
 
 
 meeting
-    .then(addToCalendar)
     .then( (res) => {
         //resolved data
         console.log(JSON.stringify(res))
     })
+    .then(res => console.log(res))
     .catch((err) => {
         //rejected data
         console.error(err)
