@@ -1,11 +1,7 @@
-const fruits = ['Mango', 'Jack Fruits', 'Lichi']
+const lang = ['Python', 'JS', 'C#', 'C']
 
-if(fruits.indexOf('Banana') === -1){
-   fruits.push('Banana')
-   console.log('Banana is not there! added baanana') 
-}
-else{
-    console.log('Banana is already there')
+for(item in lang){
+    console.log(item)
 }
 
 /**
